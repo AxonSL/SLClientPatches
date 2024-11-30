@@ -15,3 +15,6 @@ This is a file format from us deviating from .1337.
 It is easier for Installers to read and removes all the offsets that makes patching in non-runtime really hard.
 
 I personally recommend to use a programm like HxD to apply those patches manually when you don't want to use the installer.
+
+## NoAuth
+After applying those patches the game most likely will still crash. This is due to it trying to communicating with the central servers. To prevent this simply start the game with the -noauth argument and it will boot in offline mode. You can also use something like MelonLoader and set the variable noauth with a plugin.
